@@ -113,7 +113,7 @@ BOARD_KERNEL_CMDLINE += \
 
 TARGET_NO_KERNEL_OVERRIDE := false
 TARGET_KERNEL_SOURCE := $(KERNEL_PATH)
-TARGET_KERNEL_CONFIG := vendor/bengal-perf.defconfig vendor/xiaomi/fog.config
+TARGET_KERNEL_CONFIG := vendor/bengal-perf_defconfig vendor/xiaomi/fog.config
 BOARD_MKBOOTIMG_ARGS += --dtb $(PRODUCT_OUT)/obj/KERNEL_OBJ/arch/arm64/boot/dts/vendor/qcom/khaje.dtb 
 
 # Media
