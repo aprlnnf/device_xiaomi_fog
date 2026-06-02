@@ -5,7 +5,7 @@
 #
 
 DEVICE_PATH := device/xiaomi/fog
-KERNEL_PATH := device/kernel/xiaomi/sm6225
+KERNEL_PATH := kernel/xiaomi/sm6225
 
 # A/B
 BOARD_USES_RECOVERY_AS_BOOT := true
